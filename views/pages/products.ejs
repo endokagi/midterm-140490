@@ -1,0 +1,36 @@
+<% include ../partials/header.ejs%>
+
+<div class="container">
+    <h1>Car</h1><br>
+    <div class="col">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th>Price(Baht)</th>
+                    <th>Action</th>
+                    <th><a href="add">Add New Product</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <% car.forEach(function(pd) { %>
+                <tr>
+                    <td><%= pd.car_no %></td>
+                    <td><%= pd.car_name %></td>
+                    <td><%= pd.car_brand %></td>
+                    <td><%= pd.car_price %></td>
+                    <td><a href="/detail/<%= pd.car_no %>"><button class="btn btn-primary">View</button></a></td>
+                    <td><a href="/edit/<%= pd.car_no %>"><button class="btn bg-success text-white">Edit</button></a>
+                    </td>
+                    <td><a href="/delete/<%= pd.car_no %>"><button class="btn bg-danger text-white">Delete</button></a></a>
+                    </td>
+                </tr>
+                <% }); %>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<% include ../partials/footer.ejs%>

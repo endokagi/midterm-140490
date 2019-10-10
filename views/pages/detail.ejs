@@ -1,0 +1,34 @@
+<% include ../partials/header.ejs%>
+
+<div class="container">
+    <h1><%= detail.car_name %></h1><br>
+    <div class="col">
+        <div class="form-group">
+            <label for="">No.</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%= detail.car_no %>" disabled>
+            <small id="helpId" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="">Name</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%= detail.car_name %>" disabled>
+            <small id="helpId" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="">Brand</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%= detail.car_brand %>" disabled>
+            <small id="helpId" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="">Price</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                placeholder="<%= detail.car_price %>" disabled>
+            <small id="helpId" class="form-text text-muted"></small>
+        </div>
+    </div>
+    <div class="col">
+        <button class="btn bg-secondary"><a href="/products" class="text-white">Back</a></button>
+    </div>
+    <% include ../partials/footer.ejs%>

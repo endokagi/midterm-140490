@@ -1,0 +1,27 @@
+<% include ../partials/header.ejs%>
+
+<div class="container">
+    <h1>Add New Product</h1><br>
+    <form action="/addsave" method="post">
+        <div class="col">
+            <div class="form-group">
+                <label for="">No.</label>
+                <input type="text" class="form-control" name="no" id="no" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="">Brand</label>
+                <input type="text" class="form-control" name="brand" id="brand" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+                <label for="">Price</label>
+                <input type="text" class="form-control" name="price" id="price" aria-describedby="helpId">
+            </div>
+        </div>
+        <button class="btn bg-secondary"><a href="/products" class="text-white">Back</a></button>
+        <center><button type="submit" class="btn btn-primary">Add Product</button></center>
+    </form>
+    <% include ../partials/footer.ejs%>
