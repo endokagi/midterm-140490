@@ -140,12 +140,12 @@ app.get("/delete/:id", function (req, res) {
     MongoClient.connect(url, options, function (err, db) {
         if (err) throw err;
         var dbo = db.db("Cars_Product");
-    
+
         // select target
         var query = {
             car_no: classid
         }
-    
+
         dbo.collection("cars")
             .deleteOne(query, function (err, obj) {
                 if (err) throw err;

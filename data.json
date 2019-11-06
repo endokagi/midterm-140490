@@ -1,0 +1,89 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d9e99ad326b0e42fceb4a4e"),
+    "car_no" : "0001",
+    "car_name" : "Honda City",
+    "car_brand" : "Honda",
+    "car_price" : "550000"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d9e99efa3910a335cdef980"),
+    "car_no" : "0002",
+    "car_name" : "Honda Blio",
+    "car_brand" : "Honda",
+    "car_price" : "495000"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d9e9a06b24c782624501dc3"),
+    "car_no" : "0003",
+    "car_name" : "Honda Jazz",
+    "car_brand" : "Honda",
+    "car_price" : "555000"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5d9e9a31b7431d476c0cc2b0"),
+    "car_no" : "0004",
+    "car_name" : "Honda BR-V",
+    "car_brand" : "Honda",
+    "car_price" : "765000"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5d9e9a5578544c0d4c1acd1c"),
+    "car_no" : "0005",
+    "car_name" : "Honda Mobilio",
+    "car_brand" : "Honda",
+    "car_price" : "659000"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5d9e9a7d66b76719c85da31a"),
+    "car_no" : "0006",
+    "car_name" : "Honda Civic",
+    "car_brand" : "Honda",
+    "car_price" : "874000"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5d9e9b2234644e12203836b2"),
+    "car_no" : "0007",
+    "car_name" : "Honda HR-V",
+    "car_brand" : "Honda",
+    "car_price" : "949000"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5d9e9b4900d2f80248b5c7ca"),
+    "car_no" : "0008",
+    "car_name" : "Honda Accord",
+    "car_brand" : "Honda",
+    "car_price" : "1475000"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5d9e9bcd158a6127f0cd5208"),
+    "car_no" : "0009",
+    "car_name" : "Toyota Majesty",
+    "car_brand" : "Toyota",
+    "car_price" : "1709000"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5d9e9c5253922026801a6a4e"),
+    "car_no" : "0010",
+    "car_name" : "Toyota Hilux Revo Smart Cab",
+    "car_brand" : "Toyota",
+    "car_price" : "595000"
+}
